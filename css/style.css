@@ -28,6 +28,11 @@ color: var(--secondary-color);
 text-transform:capitalize;
 margin-bottom:50px;
 }
+@media (max-width:440px){
+    .special_heading_box {
+        width:fit-content;
+    }
+}
 html{
     scroll-behavior:smooth;
 }
